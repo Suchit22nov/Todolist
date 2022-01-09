@@ -1,0 +1,33 @@
+.center
+{ 
+  direction: flex;
+  flex-direction: column !important;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  background-color: #ccc;
+  border-radius: 3px;
+  text-align: center;
+ 
+
+}
+/* .divcen{
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+
+} */
+.left{ 
+  justify-content:space-between;
+ 
+  flex:1;
+}
+.right{
+  
+  flex:1;
+}

@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { Todo } from './Todo';
+// import { Incanddec } from './incanddec';
+// import { Form } from './form';
+// import { Machine } from './machine';
+// import { Time } from './Time';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  
+  return(
+    <>
+    {/* <Machine x="😄" y="😄" z="😄"/>
+    <Machine x="😄" y="😄" z="❤️"/>
+    <Time/> 
+     <Form/> */}
+     {/* <Incanddec/> */}
+     <Todo/>
+    </>
+
+
   );
+
+  
 }
+
 
 export default App;
